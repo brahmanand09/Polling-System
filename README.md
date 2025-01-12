@@ -57,7 +57,7 @@ Ensure that both Zookeeper and Kafka are running. You can check the logs to veri
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Polling-System-with-Kafka-and-WebSockets.git
+git clone https://github.com/yourusername/Polling-System.git
 cd Polling-System-with-Kafka-and-WebSockets
 ```
 
