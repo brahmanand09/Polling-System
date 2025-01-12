@@ -9,14 +9,16 @@ A real-time polling system built with **Kafka** for message processing and **Web
 - **Vote on Polls**: Users can vote on poll options, with votes sent to Kafka for processing.
 - **Real-Time Updates**: WebSocket connection allows clients to receive real-time poll updates and leaderboard changes.
 - **Leaderboard**: Displays the top-ranking poll options across all active polls.
+- **Concurrency and Fault Tolerance**: Use Kafka and Zookeeper to handle high concurrency and ensure resilience.
 
 ## Tech Stack
 
 - **Node.js**: Backend server
 - **Express.js**: For serving APIs
-- **Kafka**: For message processing and queue management
+- **Kafka with ZooKeeper**: For message processing and queue management
 - **WebSockets**: For real-time communication between the client and server
 - **PostgreSQL**: Database for storing poll and vote data
+- **Docker**: Containerization
 
 ## Getting Started
 
@@ -24,7 +26,7 @@ A real-time polling system built with **Kafka** for message processing and **Web
 
 Before running the application, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (v12 or higher)
+- [Node.js](https://nodejs.org/)
 - [Docker](https://www.docker.com/get-started)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
